@@ -1,0 +1,13 @@
+# Direct dependencies only. Versions are those the notebooks were last run with;
+# anything reasonably recent works.
+numpy>=2.0
+scipy>=1.13
+POT>=0.9.4          # exact EMD and the Sinkhorn divergence
+matplotlib>=3.9
+pandas>=2.0         # report tables
+
+ipykernel>=6.0      # enough to run the notebooks from VS Code
+ipywidgets>=8.0     # inline animation controls
+pytest>=8.0         # tests/  (optional)
+
+# jupyterlab>=4.0   # only if you prefer the browser to VS Code
